@@ -17,7 +17,7 @@ int main(void) {
 	scanf ("%f", &a_rec);
 	printf ("\t\t\t\t and \tb: ");
 	scanf ("%f", &b_rec);
-	printf ("This area of rectangle is: %.2f cm2\n", a_rec*b_rec);
+	printf ("This area of rectangle is:\t\t %.2f cm2\n", a_rec*b_rec);
 	
 	getch();
 	
