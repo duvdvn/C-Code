@@ -3,7 +3,7 @@
 void main()
 {
 	int x;
-	x=0; 		/*I don't understand*/
+	x=0; 	
 	
 	system("cls");
 	
@@ -12,13 +12,11 @@ void main()
 	
 	if (x==1)
 		printf ("\nChoice is 1");
+	else if (x==2)
+		printf ("\nChoice is 2");
+	else if (x==3)
+		printf ("\nChoice is 3");
 	else
-		if (x==2)
-			printf ("\nChoice is 2");
-		else 
-			if (x==3)
-				printf ("\nChoice is 3");
-			else
-				printf ("Invalid Choice: Invalid Choice");
+	printf ("Invalid Choice: Invalid Choice");
 			
 }
